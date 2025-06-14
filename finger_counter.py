@@ -68,12 +68,12 @@ class FingerCounterGUI:
 
             self.root.after(15, self.update_frame)
 
-    # ✅ Updated: get_finger_states now takes label
+    # Updated: get_finger_states now takes label
     def get_finger_states(self, lm, label):
         tips = [4, 8, 12, 16, 20]
         fingers = []
 
-        # ✅ Thumb: compare x values based on hand
+        #Thumb: compare x values based on hand
         thumb_tip_x = lm[4][3]
         thumb_ip_x = lm[3][3]
 
@@ -82,7 +82,7 @@ class FingerCounterGUI:
         else:
             fingers.append(thumb_tip_x > thumb_ip_x)  # Thumb pointing right (open)
 
-        # ✅ Other fingers: compare y values (tip higher than pip joint)
+        #Other fingers: compare y values (tip higher than pip joint)
         for tip in tips[1:]:
             fingers.append(lm[tip][2] < lm[tip - 2][2])  # tip_y < pip_y
 
