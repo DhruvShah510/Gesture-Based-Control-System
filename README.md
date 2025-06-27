@@ -43,46 +43,35 @@ This project demonstrates **real-time computer vision**, **human-computer intera
 
 ## ⚙️ Installation
 
-1️. Clone the Repository
-
+1️. Clone the Repository  
 2️. Create and Activate Virtual Environment (Recommended)  
-
 3️. Install Dependencies
 
 
 ## 🖥️ Usage
 
 Run the application:  
-
 python main.py
 
-You will see a home GUI with three options:
-
-1️. Volume Control
-
-2️. Gesture Recognition
-
+You will see a home GUI with three options:  
+1️. Volume Control  
+2️. Gesture Recognition  
 3️.Finger Counter
 
 Click on any task to launch it in real time. Use the Back button to return to the home screen and select another task seamlessly. 
 
 
 ## 💡 How It Works
-**Hand Tracking:** Uses MediaPipe to detect and track hand landmarks in real-time.
-
-**Gesture Recognition:** Checks finger landmark positions to identify gestures (e.g., Fist, Peace).
-
-**Volume Control:** Maps the distance between thumb and index finger to system volume levels using PyCaw.
-
+**Hand Tracking:** Uses MediaPipe to detect and track hand landmarks in real-time.  
+**Gesture Recognition:** Checks finger landmark positions to identify gestures (e.g., Fist, Peace).  
+**Volume Control:** Maps the distance between thumb and index finger to system volume levels using PyCaw.  
 **Finger Counter:** Counts the number of fingers raised on either hand.
 
 
 ## ✨ Acknowledgements
-MediaPipe
-
-OpenCV
-
-PyCaw
+- MediaPipe  
+- OpenCV  
+-  PyCaw
 
 
 ## Author
