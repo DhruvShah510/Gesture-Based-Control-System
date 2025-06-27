@@ -6,7 +6,7 @@ A **Gesture Based Control System** using **Tkinter, OpenCV, and MediaPipe** that
 - ✌️ **Recognize hand gestures** like Fist, Peace, Pointing, and Open Hand.
 - ✋ **Count the number of fingers** shown in front of the camera.
 
-This project demonstrates **real-time computer vision**, **human-computer interaction**, and **gesture recognition pipelines** in a clean, modular, and research-friendly structure. Ideal for **learning, demos, academic projects, and future gesture-based control extensions**.
+This project demonstrates **real-time computer vision**, **human-computer interaction**, and **gesture recognition** in a clean, modular, and research-friendly structure. Ideal for **learning, demos, academic projects, and future gesture-based control extensions**.
 
 ---
 
@@ -34,36 +34,37 @@ This project demonstrates **real-time computer vision**, **human-computer intera
 ---
 
 ## 📁 Project Structure
-├── **main.py** - Entry point for GUI
-├── **gesture_selector_gui.py** - Main task selection GUI
-├── **volume_controller_gui.py** - Volume control window
-├── **gesture_recognizer.py** - Gesture recognition window
-├── **finger_counter.py** - Finger counting window
-│
-├── hand_tracker.py # Hand tracking utility File with all necessary finctions 
-├── volume_controller.py # System volume controller file 
-├── utils.py # Utility functions for calculating euclidian distance 
+- **main.py** - Entry point for GUI
+- **gesture_selector_gui.py** - Main task selection GUI
+- **volume_controller_gui.py** - Volume control window
+- **gesture_recognizer.py** - Gesture recognition window
+- **finger_counter.py** - Finger counting window
+
+- hand_tracker.py # Hand tracking utility File with all necessary finctions 
+- volume_controller.py # System volume controller file 
+- utils.py # Utility functions for calculating euclidian distance 
 
 ---
 
 ## ⚙️ Installation
+1️. Clone the Repository
+2️. Create and Activate Virtual Environment (Recommended)  
+3️. Install Dependencies
 
-1️) Clone the Repository
-2️) Create and Activate Virtual Environment (Recommended)  
-3️) Install Dependencies
-
+---
 
 ## 🖥️ Usage
 Run the application:
 python main.py
 
 You will see a home GUI with three options:
-
-1️) Volume Control
-2️) Gesture Recognition
-3️) Finger Counter
+1️. Volume Control
+2️. Gesture Recognition
+3️.Finger Counter
 
 Click on any task to launch it in real time. Use the Back button to return to the home screen and select another task seamlessly. 
+
+---
 
 ## 💡 How It Works
 **Hand Tracking:** Uses MediaPipe to detect and track hand landmarks in real-time.
@@ -71,12 +72,16 @@ Click on any task to launch it in real time. Use the Back button to return to th
 **Volume Control:** Maps the distance between thumb and index finger to system volume levels using PyCaw.
 **Finger Counter:** Counts the number of fingers raised on either hand.
 
+---
+
 ## ✨ Acknowledgements
 MediaPipe
 OpenCV
 PyCaw
 
-🙌 Author
+---
+
+Author
 Dhruv Shah
 🌐 LinkedIn - https://www.linkedin.com/in/dhruv-shah-25997624b
 
