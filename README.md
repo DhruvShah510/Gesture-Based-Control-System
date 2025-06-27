@@ -10,13 +10,13 @@ This project demonstrates **real-time computer vision**, **human-computer intera
 
 ## 🚀 Features
 
-**Live camera-based gesture recognition**  
-**Volume control using gestures**  
-**Gesture classification** (Fist, Peace, Pointing, Open Hand)  
-**Finger counting with support for two hands**  
-**Clean Tkinter GUI navigation with Back button**  
-**Real-time visual feedback with overlays**  
-**Modular, readable code for easy extension**
+- **Live camera-based gesture recognition**  
+- **Volume control using gestures**  
+- **Gesture classification** (Fist, Peace, Pointing, Open Hand)  
+- **Finger counting with support for two hands**  
+- **Clean Tkinter GUI navigation with Back button**  
+- **Real-time visual feedback with overlays**  
+- **Modular, readable code for easy extension**
 
 
 ## 🛠️ Tech Stack
@@ -36,10 +36,9 @@ This project demonstrates **real-time computer vision**, **human-computer intera
 - **volume_controller_gui.py** - Volume control window
 - **gesture_recognizer.py** - Gesture recognition window
 - **finger_counter.py** - Finger counting window
-
-- hand_tracker.py # Hand tracking utility File with all necessary finctions 
-- volume_controller.py # System volume controller file 
-- utils.py # Utility functions for calculating euclidian distance 
+- **hand_tracker.py** - Hand tracking utility File with all necessary finctions 
+- **volume_controller.py** - System volume controller file 
+- **utils.py** - Utility functions for calculating euclidian distance 
 
 
 ## ⚙️ Installation
@@ -70,8 +69,11 @@ Click on any task to launch it in real time. Use the Back button to return to th
 
 ## 💡 How It Works
 **Hand Tracking:** Uses MediaPipe to detect and track hand landmarks in real-time.
+
 **Gesture Recognition:** Checks finger landmark positions to identify gestures (e.g., Fist, Peace).
+
 **Volume Control:** Maps the distance between thumb and index finger to system volume levels using PyCaw.
+
 **Finger Counter:** Counts the number of fingers raised on either hand.
 
 
